@@ -1,0 +1,130 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+span {
+  font-size: 0.9rem;
+  color: #757373;
+}
+
+h6 {
+  font-size: 1.1rem;
+  color: rgb(24, 24, 49);
+}
+{
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+  }
+
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+  }
+
+
+
+  section {
+      padding: 1em;
+  }
+
+}
+/* Navigation */
+  nav {
+      background-color: rgb(14, 105, 14);
+      color: #fff;
+      padding: 0.5em;
+      text-align: center;
+  }
+  /* Navigation ending */
+/* Home */
+
+/* courses */
+ 
+
+
+
+
+/* footer */
+
+  footer {
+      background-color: rgb(14, 105, 14);
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+  }
+  /*footer ending*/
+/* About */
+
+/* Blog */
+
+/* Courses */
+
+/* contact Us*/
+
+/* button */
+        #colorButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            animation: colorChange 4s infinite;
+        }
+
+        /* Keyframe animation for changing colors */
+        @keyframes colorChange {
+            0% { background-color: #3498db; }
+            25% { background-color: #2ecc71; }
+            50% { background-color: #e74c3c; }
+            75% { background-color: #f39c12; }
+            100% { background-color: #3498db; }
+        }
+
+        /* Hover effect for the button */
+        #colorButton:hover {
+            animation: none; /* Disable the animation on hover */
+            filter: brightness(1.2);
+        }
+
+
+
+/* button ending*/
+
+
+/* responsive */
+
+@media (max-width: 468px) 
+{    .carousel-inner .carousel-item 
+  background-size: contain !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 475px) {
+}
+/*responsive ending */
